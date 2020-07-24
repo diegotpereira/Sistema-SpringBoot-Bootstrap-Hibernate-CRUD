@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html layout:decorate="~{layout}" xmlns:layout="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+
+<section class="layout-content" layout:fragment="corpo">
+    <nav class="navbar navbar-expand-md bg-light">
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <i class="oi oi-caret-right"></i>
+                    <span>Home</span>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="list-home" class="row">
+            <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action list-group-item-danger active"
+                       id="list-spring-boot-list" data-toggle="list" href="#spring-boot"
+                       role="tab" aria-controls="spring-boot">Projeto</a> 
+                       
+                       <a
+                        class="list-group-item list-group-item-action list-group-item-danger" 
+                        id="list-sts-list" data-toggle="list" href="#sts" 
+                        role="tab" aria-controls="sts">Tecnologias Usadas</a> 
+                        
+                        <a 
+                        class="list-group-item list-group-item-action list-group-item-danger" id="list-thymeleaf-list" 
+                        data-toggle="list" href="#thymeleaf" role="tab" aria-controls="thymeleaf">Histórico
+                        </a> 
+                        
+                        <a
+                        class="list-group-item list-group-item-action list-group-item-danger"
+                        id="list-webjars-list" data-toggle="list" href="#webjars"
+                        role="tab" aria-controls="webjars">Área de Atuação</a> 
+                        
+                        <a
+                        class="list-group-item list-group-item-action list-group-item-danger"
+                        id="list-hibernate-list" data-toggle="list" href="#hibernate"
+                        role="tab" aria-controls="hibernate">Gestão de Conhecimento</a> 
+                        
+                        <a
+                        class="list-group-item list-group-item-action list-group-item-danger"
+                        id="list-bootstrap-list" data-toggle="list" href="#bootstrap"
+                        role="tab" aria-controls="bootstrap">Contato</a>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="tab-content" id="nav-tabContent">
+                    
+                    <div class="tab-pane fade show active" id="spring-boot"
+                         role="tabpanel" aria-labelledby="list-spring-boot-list">
+                        
+                        <a href="https://github.com/diegotpereira" class="text-danger">Desenvolvedor</a> Diego Pereira.
+                    </div>
+                    
+                    <div class="tab-pane fade" id="sts" role="tabpanel"
+                         aria-labelledby="list-sts-list">
+                         <a href="https://www.jetbrains.com/idea/" class="text-danger">IntelliJ IDEA</a> Todos os aspectos do
+                        IntelliJ IDEA são projetados especificamente para maximizar a produtividade do desenvolvedor.<br/> 
+                        
+                        <a href="http://www.thymeleaf.org/" class="text-danger">Thymeleaf</a> 
+                        é um moderno mecanismo de modelo Java do lado do servidor para web e independente
+                        ambientes. Com módulos para o Spring Framework, uma série de
+                        integrações com suas ferramentas favoritas e a capacidade de conectar
+                        em sua própria funcionalidade, Thymeleaf é ideal para os dias modernos
+                        Desenvolvimento web HTML5 JVM - embora haja muito mais que pode
+                        Faz.<br/>
+                        
+                        <a href="https://www.webjars.org/"class="text-danger">WebJars</a> 
+                        estão do lado do cliente
+                        bibliotecas da Web (por exemplo, jQuery; Bootstrap) empacotadas em JAR (Java
+                        Arquivar) arquivos.<br/>
+                        
+                        <a href="http://hibernate.org/orm/"class="text-danger">Hibernate ORM</a>
+                        habilita desenvolvedores para escrever mais facilmente aplicativos cujos dados sobrevivem
+                        o processo de candidatura. Como um mapeamento objeto / relacional (ORM)
+                        framework, o Hibernate está preocupado com a persistência de dados
+                        aplica-se a bancos de dados relacionais (via JDBC). <br/> Além de
+                        sua própria API "nativa", o Hibernate também é uma implementação do
+                        Especificação da Java Persistence API (JPA). Como tal, pode ser
+                        facilmente usado em qualquer ambiente que suporte JPA, incluindo Java SE
+                        aplicativos, servidores de aplicativos Java EE, Enterprise OSGi
+                        recipientes, etc.<br/>
+                        
+                        <a href="https://getbootstrap.com/"class="text-danger">Bootstrap 4</a> é um aberto
+                        kit de ferramentas de origem para desenvolvimento com HTML, CSS e JS. Rapidamente
+                        prototipar suas idéias ou construir seu aplicativo inteiro com nosso Sass
+                        variáveis ​​e mixins, sistema de grade responsivo, extenso pré-construído
+                        componentes e poderosos plugins construídos em jQuery.<br/>
+                    </div>
+                    <div class="tab-pane fade" id="thymeleaf" role="tabpanel"
+                         aria-labelledby="list-thymeleaf-list">
+                        <a href="https://qi.edu.br/"class="text-danger">Faculdades QI</a>
+                        A QI Faculdade & Escola Técnica têm mais de 15 unidades de ensino em diversos municípios do RS: 
+                        Alvorada, Canela, Canoas, Caxias do Sul, Gravataí, Guaíba, Novo Hamburgo, Porto Alegre, Rio Grande, 
+                        Rosário do Sul, São Leopoldo e Viamão.
+                        Com mais de 25 anos de experiência na educação profissional, 
+                        a QI já formou mais de 100 mil alunos ao longo de sua história e possui cursos nos mais diversos níveis: 
+                        Profissionalizantes, Técnicos Presenciais e EAD, Inglês, Graduação e Pós-graduação.
+                        Com o foco em oferecer ao aluno uma educação profissional eficiente e eficaz, sua missão é 
+                        prepará-los para conquistar posições de destaque no mercado de trabalho. Busca, através de suas atividades, 
+                        aplicar os quatro pilares de educação: Aprender a Fazer, Aprender a Aprender, Aprender a Ser e Aprender a Conviver.
+                    </div>
+                    <div class="tab-pane fade" id="webjars" role="tabpanel"
+                         aria-labelledby="list-webjars-list">
+                        <a href="https://pt.wikipedia.org/wiki/Front-end_e_back-end"class="text-danger">Desenvolvedor Full Stack</a> 
+                        É aquele que lida tanto com o back-end (o lado dos servidores), quanto com o front-end 
+                        (o lado dos clientes, os browsers).
+                    </div>
+                    <div class="tab-pane fade" id="hibernate" role="tabpanel"
+                         aria-labelledby="list-hibernate-list">
+                        <a href="https://www.java.com/pt_BR/about/"class="text-danger">Java</a>
+                        O Java é a base para praticamente todos os tipos de aplicações em rede e 
+                        é o padrão global para o desenvolvimento e distribuição de aplicações móveis 
+                        e incorporadas, jogos, conteúdo baseado na Web e softwares corporativos. 
+                        Com mais de 9 milhões de desenvolvedores em todo o mundo, de forma eficiente, 
+                        o Java permite que você desenvolva, implante e use aplicações e serviços estimulantes.</br>
+                        <a href="https://spring.io/"class="text-danger">Spring Framework</a>
+                        O Spring é um framework open source para a plataforma Java criado por Rod Johnson e 
+                        descrito em seu livro "Expert One-on-One: JEE Design e Development".
+                        Trata-se de um framework não intrusivo, 
+                        baseado nos padrões de projeto inversão de controle (IoC) e injeção de dependência.</br>
+                        <a href="https://pt.wikipedia.org/wiki/Administrador_de_banco_de_dados"class="text-danger">DBA</a>
+                        Administrador de Banco de Dados refere-se ao profissional responsável por gerenciar, instalar, configurar, atualizar e monitorar um banco de dados 
+                        ou um sistema de bancos de dados. Algo que envolve, inclusive, a idealização dos padrões de qualidade e dos prazos estipulados pelos clientes.
+                    </div>
+                    <div class="tab-pane fade" id="bootstrap" role="tabpanel"
+                         aria-labelledby="list-bootstrap-list">
+                        <a href="https://outlook.live.com/owa/">Email</a> diegoteixeirapereira@hotmail.com,</br> 
+                        você também pode entrar em contato por diegoteixeirapereira@gmail.com.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+</body>
+</html>
